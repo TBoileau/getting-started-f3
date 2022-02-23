@@ -10,5 +10,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "bcosca/fatfree": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "TBoileau\\FatFreeFramework\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
 }

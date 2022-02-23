@@ -1,0 +1,7 @@
+<h1>Modifier</h1>
+
+<form method="post">
+    <input type="text" placeholder="Titre" name="post[title]" required value="{{ @post['title'] }}"/>
+    <textarea placeholder="Titre" required name="post[content]">{{ @post['content'] }}</textarea>
+    <button>Modifier</button>
+</form>
